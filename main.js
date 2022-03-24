@@ -27,8 +27,7 @@ function pad(a, b) {
 }
 
 async function getImg() {
-    // let _paths = ['/usr/share/web-greeter/themes/arch/wallpapers','/usr/share/backgrounds/lightdm'];
-    let _paths = ['/usr/share/backgrounds/lightdm'];
+    let _paths = ['/usr/share/web-greeter/themes/arch/wallpapers','/usr/share/backgrounds/lightdm'];
 
     function pullImages(paths, images){
 	    let path = paths.pop();
